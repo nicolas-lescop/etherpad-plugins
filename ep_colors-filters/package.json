@@ -1,0 +1,30 @@
+{
+  "description": "Adds filters on authorship colors.",
+  "name": "ep_colors-filters",
+  "version": "0.0.1",
+  "author": {
+    "name": "Nicolas Lescop",
+    "email": "limplementeur@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Nicolas Lescop",
+      "email": "limplementeur@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/nicolas-lescop/etherpad-plugins",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nicolas-lescop/etherpad-plugins.git"
+  },
+  "_id": "ep_colors-filters@0.0.1",
+  "dist": {
+    "shasum": "57a1e9cc366b1126a32875fb2d0ce8b913757af9"
+  },
+  "_from": "etherpad-plugins/ep_colors-filters"
+}
