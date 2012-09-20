@@ -12,8 +12,8 @@ exports.postAceInit = function(hook, context){
     padBody.toggleClass('authorColors');
     console.log(padBody);
   });
-  
-  $('#clearAuthorship').hide();
+
+  $('#clearAuthorship').hide().before().hide();
 };
 
 exports.aceInitInnerdocbodyHead = function(hook, context) {
