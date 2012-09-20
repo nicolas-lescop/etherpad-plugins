@@ -12,7 +12,8 @@
         "aceRegisterBlockElements": "ep_format-bar/static/js/index"
       },
       "hooks": {
-        "eejsBlock_editbarMenuLeft": "ep_format-bar/index"
+        "eejsBlock_editbarMenuLeft": "ep_format-bar/index",
+        "eejsBlock_styles": "ep_format-bar/index"
       }
     }
   ]

@@ -12,12 +12,8 @@
         "aceRegisterBlockElements": "ep_headings/static/js/index"
       },
       "hooks": {
-        "eejsBlock_editbarMenuLeft": "ep_headings/index"
-      },
-      ".client_hooks": {
-        "aceGetFilterStack": "ep_headings/static/js/index:aceGetFilterStack",
-        "aceCreateDomLine": "ep_headings/static/js/index:aceCreateDomLine",
-        "aceDomLineProcessLineAttributes": "ep_headings/static/js/index:aceDomLineProcessLineAttributes"
+        "eejsBlock_editbarMenuLeft": "ep_headings/index",
+        "eejsBlock_styles": "ep_headings/index"
       }
     }
   ]
