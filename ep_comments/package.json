@@ -1,6 +1,6 @@
 {
-  "description": "Adds filters on authorship colors.",
-  "name": "ep_colors-filters",
+  "description": "Adds comments on sidebar and link it to the text.",
+  "name": "ep_comments",
   "version": "0.0.1",
   "author": {
     "name": "Nicolas Lescop",
@@ -22,9 +22,6 @@
     "type": "git",
     "url": "git://github.com/nicolas-lescop/etherpad-plugins.git"
   },
-  "_id": "ep_colors-filters@0.0.1",
-  "dist": {
-    "shasum": "57a1e9cc366b1126a32875fb2d0ce8b913757af9"
-  },
-  "_from": "etherpad-plugins/ep_colors-filters"
+  "_id": "ep_comments@0.0.1",
+  "_from": "etherpad-plugins/ep_comments"
 }
