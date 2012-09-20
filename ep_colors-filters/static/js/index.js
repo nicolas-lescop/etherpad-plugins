@@ -13,7 +13,7 @@ exports.postAceInit = function(hook, context){
     console.log(padBody);
   });
 
-  $('#clearAuthorship').hide().before().hide();
+  $('#clearAuthorship').hide().prev().hide();
 };
 
 exports.aceInitInnerdocbodyHead = function(hook, context) {
