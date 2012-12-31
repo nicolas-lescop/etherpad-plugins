@@ -23,5 +23,9 @@
     "url": "git://github.com/nicolas-lescop/etherpad-plugins.git"
   },
   "_id": "ep_comments@0.0.1",
-  "_from": "etherpad-plugins/ep_comments"
+  "_from": "etherpad-plugins/ep_comments/",
+  "readme": "ERROR: No README.md file found!",
+  "dist": {
+    "shasum": "eed3042f52299f602af395635192b476cbc815a5"
+  }
 }

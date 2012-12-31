@@ -7,21 +7,21 @@ exports.socketio = function (hook_name, args, cb){
   var io = args.io;
   var pushComment;
   var padComment = io;
-
+  
   var commentSocket = io
   .of('/comment')
   .on('connection', function (socket) {
-
+    
     socket.on('getComments', function (data, callback) {
       var padId = data.padId;
-
+      
       socket.join(padId);
-
+      
       commentManager.getComments(padId, function (err, comments){
         callback(comments);
       });
     });
-
+    
     socket.on('addComment', function (data, callback) {
       var padId = data.padId;
       var content = data.comment;
