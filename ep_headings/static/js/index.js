@@ -3,7 +3,7 @@ var _, $, jQuery;
 var $ = require('ep_etherpad-lite/static/js/rjquery').$;
 var _ = require('ep_etherpad-lite/static/js/underscore');
 var headingClass = 'heading';
-var cssFiles = ['ep_headings-bar/static/css/editor.css'];
+var cssFiles = ['ep_headings/static/css/editor.css'];
 var tags = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
 
 // Here we collect our <h1>...<h6> tags and transform them tho heading
