@@ -28,7 +28,8 @@
   },
   "_id": "ep_headings@0.1.2",
   "dist": {
-    "shasum": "57a1e9cc366b1126a32875fb2d0ce8b913757af9"
+    "shasum": "201fb652a3f3f3c403ecf99fdef270cd546e2e57"
   },
-  "_from": "etherpad-plugins/ep_headings"
+  "_from": "etherpad-plugins/ep_headings",
+  "readme": "ERROR: No README.md file found!"
 }
